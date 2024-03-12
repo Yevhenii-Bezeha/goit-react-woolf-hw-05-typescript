@@ -7,7 +7,7 @@ type Menu = { id: MenuIds; title: string };
 // Додати тип Menu Selected
 type SelectedMenu = {
   id: MenuIds;
-} | null;
+};
 
 type MenuSelected = {
   selectedMenu: SelectedMenu;
